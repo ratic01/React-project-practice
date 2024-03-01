@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.logovi{
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ justify-content: space-evenly;
+
+}
