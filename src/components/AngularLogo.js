@@ -1,8 +1,7 @@
 import React from "react";
-import angularLogo from "../images/angularlogo.png";
 
-const AngularLogo = () => {
-  return <img src={angularLogo} alt="Angular Logo" />;
+const AngularLogo = (props) => {
+  return <img src={props.image} alt="Angular Logo" />;
 };
 
 export default AngularLogo;

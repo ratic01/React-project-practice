@@ -1,19 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+//import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import AngularLogo from "./components/AngularLogo";
 import ReactLogo from "./components/ReactLogo";
 import VueLogo from "./components/VueLogo";
 
+const angualarLogoImage = require("../src/images/angularlogo.png"); //uvozimo sliku iz direktorijuma images
+const reactLogoImage = require("../src/images/reactlogo2.png");
+const vueLogoImage = require("../src/images/vuelogo.png");
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <div className="logovi">
-      <AngularLogo />
-      <ReactLogo />
-      <VueLogo />
+      <AngularLogo image={angualarLogoImage} />
+      <ReactLogo image={reactLogoImage} />
+      <VueLogo image={vueLogoImage} />
     </div>
   </React.StrictMode>
 );
